@@ -6,7 +6,7 @@ def check_ping():
     hostname = input()
     response = os.system("ping -c 1 " + hostname)
 
-    # and then check the response...
+    # check the response...
     if response == 0:
         pingstatus = "Network Active"
     else:
